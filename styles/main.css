@@ -1,17 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: white;
-    font-weight: 400;
 }
 
 .landing-page {
-    background-image: url('/resources/home.jpg');
+    background-image: url('/resources/home.png');
     background-size: 100%;
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
+    color: white;
 }
 
 a {
@@ -93,9 +92,6 @@ a:hover {
     width: 80%;
 }
 .footer{
-    position: absolute;
-    top: 200vh;
-    left: 0px;
-    color: black;
-    margin-left: 2em;
+    margin-left: -4em;
+    margin-bottom: 2em;
 }
