@@ -4,45 +4,19 @@
     <title>Bianca Hale</title>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 
-<body style="overflow-x: hidden;">
-    <div class="landing-page">
-        <div class="nav-bar">
-            <a href="/index.html"><div class="bianca">Bianca Hale</div></a> 
-            <div class="small-links">
-                <a href="/templates/work.html"><div class="nav-item">Work</div></a>
-                <a href="/templates/about.html"><div class="nav-item">About</div></a>
-                <a href="/templates/other-works.html"><div class="nav-item">Other Works</div></a>
-                <a href=""><div class="nav-item">Resume</div></a>
-            </div>
-        </div>
-        <div class="center-text">
-            <div style="font-size: 5em; margin-bottom: 0.5em;">Hi, I'm Bianca</div>
-            <div style="font-size: 2em;">I'm a UX/UI designer passionate about creating empathetic solutions through mindful design</div>
-        </div>
+<body>
+    <div class="image-track">
+        <img src="/resources/beach/3_ladies.jpg" onclick="updateBackgroundColor(0)">
+        <img src="/resources/beach/couple.jpg" onclick="updateBackgroundColor(1)">
+        <img src="/resources/beach/hips.jpg" onclick="updateBackgroundColor(2)">
+        <img src="/resources/beach/jumping_ball.jpg" onclick="updateBackgroundColor(3)">
+        <img src="/resources/beach/splayed.jpg" onclick="updateBackgroundColor(4)">
     </div>
-    <div class="home-lower">
-        <div style="font-size: 5em;" class="grid-item">Highlighted Work</div>
-        <div class="grid-item"></div>
-        <a href="" class="grid-item"><img src="/resources/coterie-home.png"></a>
-        <div class="grid-item">
-            <div class="highlighted-work-title">Coterie Plan to Play Feature</div>
-            <div class="highlighted-work-desc">A player-matching feature to enhance the experience of Coterie users.</div>
-        </div>
-        <a href="" class="grid-item"><img src="/resources/pretties-home.png"></a>
-        <div class="grid-item">
-            <div class="highlighted-work-title">Pretties Website Redesign</div>
-            <div class="highlighted-work-desc">A redesign of a small clothing brand's website to increase conversions and make the e-commerce experience more user-friendly.</div>
-        </div>
-        <a class="footer" href="https://www.linkedin.com/in/biancanhale">
-            <img src="/resources/linkedin.png" style="scale: 0.6;">
-        </a>
-    </div>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
 

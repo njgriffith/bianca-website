@@ -1,97 +1,19 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "EB Garamond", serif;
+    --maize: #ece336ff;
+    --red-ncs: #b30039ff;
+    --yinmn-blue: #3c599eff;
+    --persian-indigo: #361f8eff;
+    --baby-powder: #fafbf6ff;
 }
-
-.landing-page {
-    background-image: url('/resources/home.png');
-    background-size: 100%;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: #ccc;
-}
-
-.nav-bar {
+  
+.image-track{
     display: flex;
-    width: 92%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em;
-}
-
-.small-links {
-    display: flex;
-    justify-content: right;
-    gap: 2em;
-}
-
-.bianca {
-    font-size: 2.5em;
-    margin-left: 1em;
-}
-
-.nav-item {
-    font-size: 1.2em;
-}
-
-.center-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-}
-
-.home-lower {
-    position: absolute;
-    top: 100vh;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    color: black;
-    margin-top: 2em;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two columns of equal width */
-    grid-template-rows: auto auto auto;
-    /* Three rows */
+    justify-content: center;
     gap: 10px;
-    width: 80%;
+    margin-top: 15%;
+}
+.image-track > img{
+    height: 400px;
 }
 
-.grid-item {
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-}
-.grid-item > img{
-    width: 75%;
-    border-radius: 20px;
-}
-.highlighted-work-title{
-    font-size: 2.5em;
-    margin-bottom: 1em;
-}
-.highlighted-work-desc{
-    text-align: left;
-    font-weight: 300;
-    font-size: 1.2em;
-    margin-left: 4em;
-    width: 80%;
-}
-.footer{
-    margin-left: -4em;
-    margin-bottom: 2em;
-}
